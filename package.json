@@ -1,0 +1,13 @@
+{
+  "name": "poi-preset-uglify-es",
+  "version": "0.1.0",
+  "description": "Use uglify-es instead of uglify-js",
+  "main": "index.js",
+  "repository": "git@github.com:morrislaptop/poi-preset-uglify-es.git",
+  "author": "Craig Morris <cr@igmorr.is>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "uglifyjs-webpack-plugin": "^1.1.8"
+  }
+}
