@@ -29,7 +29,7 @@ module.exports = (pluginOptions) => {
       // do not use if `minimize` is off
       if (config.plugins.has('minimize')) {
         config.plugin('minimize')
-          .UglifyJsPlugin(UglifyJsPlugin, [pluginOptions])
+          .use(UglifyJsPlugin, [pluginOptions])
       }
     })
   }
